@@ -1,0 +1,11 @@
+spring:
+  profiles: production
+  
+server:
+  port: 8089
+  
+myconfig:
+  dbName: production database
+  queries:
+    - select clientId from ClientsTable
+    - select billTotal from BillsTable  

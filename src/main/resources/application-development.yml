@@ -1,0 +1,12 @@
+spring:
+  profiles: development  
+
+server:
+  port: 8181
+  
+myconfig:
+  dbName: development database    
+  queries:
+    - select * from dual
+    - select 1 + 1 from dual  
+  
